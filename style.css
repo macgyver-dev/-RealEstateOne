@@ -3887,10 +3887,13 @@ table.wp-calendar-table caption {
 @media only screen and (min-width: 482px) {
 
 	.site-logo .custom-logo {
-		max-width: var(--branding--logo--max-width);
-		max-height: var(--branding--logo--max-height);
 		height: auto;
 		width: auto;
+		float: left;
+		margin-top: auto;
+		margin-bottom: 15px;
+		margin-left: 50px;
+		padding: 19px 0 ;
 	}
 }
 
@@ -4671,6 +4674,7 @@ h1.page-title {
 }
 
 .primary-navigation {
+	margin-bottom: 0;
     background: none;
     border: none;
     margin-bottom: 0;
@@ -4678,7 +4682,7 @@ h1.page-title {
 }
 
 .primary-navigation > .primary-menu-container {
-
+	
 }
 @media only screen and (max-width: 481px) {
 
@@ -4860,6 +4864,7 @@ h1.page-title {
 		padding-top: 3px;
 		transition: all 0.5s ease;
 		z-index: 88888;
+		background-color: white;
 	}
 
 	.primary-navigation > div > .menu-wrapper > li > .sub-menu:before,
